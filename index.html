@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Clínica Essência- Psicologia e Psicanálise </title>
+  <link rel="stylesheet" href="index.css">
+  </head>
+
+<body>
+  
+  <header>
+    <h1 id="Essência"> Clínica Essência - Psicologia e Psicanálise</h1>
+   <h2>Transformando vidas com escuta, acolhimento e profissionalismo.</h2>
+  </header>
+
+<nav>
+    <fieldset>
+    <ul>
+      <li>
+        <a href="Equipe.html"> Equipe de Profissionais</a>
+      </li>
+      
+      <li>
+        <a href="Serviços.html"> Serviços </a>
+      </li>
+      
+      <li>
+        <a href="Contato.html"> Contato </a>
+      </li>
+   
+    </ul>
+    </fieldset>
+  </nav>
+
+  <div class="Introdução">
+ <h3> Bem Vindos a um espaço de acolhimento, escuta e transformação.</h3>
+</div>
+
+<header>
+
+  <div class="right"> </div class='left'> <div class="center">
+    <img src="./img´s/equipe.jpg" alt="Fachada"> <img src="./img´s/equipe2.jpg"> <img src="./img´s/equipe3.jpg" alt="">
+  </div> </div> </div>
+
+</header>
+
+<main>
+  
+  <section>
+    <class="intro">
+      <h2 id="Clínica"> A Clínica </h2>
+  
+      <div class="box-container">
+        <p class="box">
+          A Clínica Essência nasceu do desejo de oferecer um cuidado psicológico acessível, ético e transformador.
+          Trabalhamos com escuta ativa e acolhimento para ajudar você a lidar com seus conflitos internos e desafios da vida.
+          Seja para enfrentar momentos difíceis ou iniciar um processo de autoconhecimento, estamos aqui por você.
+          Nosso espaço foi pensado para promover bem-estar, equilíbrio emocional e desenvolvimento pessoal.
+        </p>
+  
+        <p class="box">
+          Na Clínica Essência, você encontra um espaço seguro para falar, sentir e se reconectar com quem você é.
+          Nossos serviços são pensados para quem busca mais equilíbrio emocional, autoconhecimento e qualidade de vida.
+          Com uma equipe dedicada e um ambiente acolhedor, oferecemos um atendimento humanizado desde o primeiro contato.
+          Agende sua sessão e descubra como a terapia pode transformar sua jornada.
+        </p>
+     
+      </div>
+    
+  </section>
+  
+
+</main>
+
+<h1 id="sessão"> Agende sua sessão </h1>
+<p style="text-align: center;">Complete suas informações:</p>
+
+<div class="formulário">
+  <form id="formulario">
+    
+    <fieldset style="color: black;" class="grupo"> 
+      <p><strong>Nome e sobrenome:</strong>
+        <input type="text" name="nome" id="nome" required>
+      </p>
+
+      <p><strong>Celular com DDD:</strong>
+        <input type="tel" name="Telefone" id="Telefone" placeholder="(99)99999-9999" required>
+      </p>
+
+      <p><strong>E-mail:</strong>
+        <input type="email" name="e-mail" id="e-mail" required>
+      </p>
+
+      <p><strong>Cidade:</strong>
+        <input type="text" name="Cidade" id="Cidade" required>
+      </p>
+
+      <p><strong>Estado:</strong>
+        <select id="Estado" name="Estado" class="Estado" required>
+          <option value="">Selecione</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" class="botão">
+      </p>
+      </fieldset>
+      </form>
+  
+  <p id="mensagem-sucesso" style="display: none; color: green; font-weight: bold; text-align: center; margin-top: 15px;">
+     Sua mensagem foi enviada com sucesso!
+  </p>
+</div>
+
+<script>
+  const form = document.getElementById('formulario');
+  const msg = document.getElementById('mensagem-sucesso');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    msg.style.display = 'block';
+    form.reset();
+  });
+</script>
+
+  </form>
+
+</div>
+
+<footer>
+  <p>2025 Clínica Essência – Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>

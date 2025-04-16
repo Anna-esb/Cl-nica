@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f4f0f7;
+    color: #333;
+    padding-bottom: 50px;
+    transform: translateY(-3px)
+  }
+  
+  header {
+    background-color: #8448a0;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1, header h2 {
+    margin-bottom: 10px;
+  }
+  
+  .titulo-centralizado {
+    font-size: 2rem;
+  }
+  
+  .paragrafo-maior:hover {
+    transform: translateY(-3px);
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  
+  #sessão {
+    color: #8448a0;
+    text-align: center;
+  }
+
+  fieldset {
+    border: none;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transform: translateY(-3px)
+
+  }
+  
+  .titulo-maior {
+    color: #8448a0;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .atuação {
+    font-size: 1rem;
+  }  
+
+  .formulário {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #8448a0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .grupo input[type="text"],
+  .grupo input[type=tel],
+  .grupo input[type=email],
+  .Estado {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #8448a0;
+    border-radius: 4px;
+  }
+  
+  .botão {
+    width: 100%;
+    padding: 10px;
+    background-color: #8448a0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+footer {
+    background-color: #8448a0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 14px;
+  }

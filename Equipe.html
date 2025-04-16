@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica Essência - Psicologia e Psicanálise</title>
+  <link rel="stylesheet" href="equipe.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo-centralizado">🌿 Clínica Essência</h1>
+    <p class="paragrafo-maior">
+      Na nossa clínica, acreditamos que o cuidado com a saúde mental deve ser acolhedor, humano e personalizado. 
+      Por isso, contamos com uma equipe diversa de profissionais comprometidos com o bem-estar emocional de crianças, adolescentes e adultos.
+    </p>
+  </header>
+
+  <section>
+    <fieldset>
+      <h2 class="titulo-maior">Dra. Mariana Alves</h2>
+      <h2 class="atuação">Psicóloga Clínica - CRP 00/00000</h2>
+      <div class="center">
+        <img src="./img´s/Psicóloga.jpg" alt="Dra. Mariana Alves">
+        <p class="especialidade">
+          Especializada em psicoterapia para adultos, Mariana atua com escuta empática e abordagem integrativa. 
+          Seu olhar cuidadoso e experiência em diferentes contextos clínicos proporcionam um espaço seguro para autoconhecimento, 
+          desenvolvimento emocional e resolução de conflitos.
+        </p>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <h2 class="titulo-maior">Dra. Laura Mendes</h2>
+      <h2 class="atuação">Psicanalista Infantil e Adolescente - CRP 00/00000</h2>
+      <div class="center">
+        <img src="./img´s/Psicanalista.jpg" alt="Dra. Laura Mendes">
+        <p class="especialidade">
+          Com ampla experiência no atendimento a crianças e adolescentes, Laura utiliza a psicanálise para compreender as expressões emocionais 
+          na infância e adolescência. Seu trabalho é pautado na escuta sensível, no vínculo e no uso do brincar como ferramenta terapêutica essencial.
+        </p>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <h2 class="titulo-maior">Dr. Rafael Tavares</h2>
+      <h2 class="atuação">Psicólogo e Psicoterapeuta Existencial - CRP 00/00000</h2>
+      <div class="center">
+        <img src="./img´s/Terapeuta.jpg" alt="Dr. Rafael Tavares">
+        <p class="especialidade">
+          Apaixonado por história, filosofia e natureza, Rafael traz uma escuta profunda e reflexiva para sua prática clínica. 
+          Trabalha com adultos e jovens em busca de sentido, autenticidade e equilíbrio emocional, sempre valorizando o diálogo e 
+          a singularidade de cada paciente.
+        </p>
+      </div>
+    </fieldset>
+  </section>
+
+  <section>
+    <h1 id="sessão"> Agende sua sessão </h1>
+<p style="text-align: center;">Complete suas informações:</p>
+
+<div class="formulário">
+  <form id="formulario">
+    <fieldset style="color: black;" class="grupo"> 
+      <p><strong>Nome e sobrenome:</strong>
+        <input type="text" name="nome" id="nome" required>
+      </p>
+
+      <p><strong>Celular com DDD:</strong>
+        <input type="tel" name="Telefone" id="Telefone" placeholder="(99)99999-9999" required>
+      </p>
+
+      <p><strong>E-mail:</strong>
+        <input type="email" name="e-mail" id="e-mail" required>
+      </p>
+
+      <p><strong>Cidade:</strong>
+        <input type="text" name="Cidade" id="Cidade" required>
+      </p>
+
+      <p><strong>Estado:</strong>
+        <select id="Estado" name="Estado" class="Estado" required>
+          <option value="">Selecione</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+        </select>
+      </p>
+
+    </fieldset>
+  </form>
+
+      <p>
+        <input type="submit" value="Enviar" class="botão">
+      </p>
+    
+
+  
+  <p id="mensagem-sucesso" style="display: none; color: green; font-weight: bold; text-align: center; margin-top: 15px;">
+     Sua mensagem foi enviada com sucesso!
+  </p>
+</div>
+
+<script>
+  const form = document.getElementById('formulario');
+  const msg = document.getElementById('mensagem-sucesso');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    msg.style.display = 'block';
+    form.reset();
+  });
+</script>
+
+  </form>
+
+</div>
+  </section>
+
+  <footer>
+    <p>2025 Clínica Essência – Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
