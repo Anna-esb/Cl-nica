@@ -22,7 +22,8 @@ O site conta com as seguintes páginas:
 
 Você pode acessar a versão hospedada no GitHub Pages por aqui:
 
-👉 [https://anna-esb.github.io/cl-nica/](https://anna-esb.github.io/cl-nica/)
+👉 [https://anna-esb.github.io/cl-nica/]
+( https://anna-esb.github.io/Cl-nica/ )
 
 Anna Eduarda  
 Estudante de Análise e Desenvolvimento de Sistemas – UNICEUB
